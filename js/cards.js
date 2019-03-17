@@ -129,7 +129,7 @@ function getWinMessage() {
     }
     var url = "win.php?";
     request.open("GET", url, true);
-    request.onreadystatechange = displayMessage;
+    //request.onreadystatechange = displayMessage;
     request.send(null);
 }
 
@@ -141,7 +141,7 @@ function getLossMessage() {
     }
     var url = "lose.php?";
     request.open("GET", url, true);
-    request.onreadystatechange = displayMessage;
+    //request.onreadystatechange = displayMessage;
     request.send(null);
 }
 
